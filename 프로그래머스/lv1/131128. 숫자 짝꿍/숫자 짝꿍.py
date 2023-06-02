@@ -8,11 +8,10 @@ def solution(X, Y):
     
     if zzac == {}:
         return '-1'
-    elif list(zzac.keys()) == ['0']:
-        return '0'
+    
     
     answer = ''
     for k, v in zzac.items():
         answer += k * v
-    return answer
+    return '0' if answer[0] == '0' else answer
     
