@@ -6,7 +6,7 @@ def solution(new_id):
         if i.isalpha() or i.isdigit() or i in ['-', '_', '.']:
             new_id += i
     
-    while new_id != new_id.replace('..', '.'):    # 3단계
+    while '..' in new_id:    # 3단계
         new_id = new_id.replace('..', '.')
     
     new_id = new_id.strip('.')                    # 4단계
