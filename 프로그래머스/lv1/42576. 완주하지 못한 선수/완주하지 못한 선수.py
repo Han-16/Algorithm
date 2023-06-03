@@ -11,4 +11,4 @@ def solution(participant, completion):
         if part_dict[i] == 0:
             del part_dict[i]
     
-    return "".join(list(part_dict.keys()))
+    return list(part_dict.keys())[0]
