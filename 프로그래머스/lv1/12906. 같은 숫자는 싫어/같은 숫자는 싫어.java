@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Solution { 
     public ArrayList<Integer> solution(int[] arr) {
         ArrayList<Integer> answer = new ArrayList<>();
         int prev = -1;
