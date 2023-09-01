@@ -1,0 +1,5 @@
+input()
+numbers = list(map(int, input().split()))
+target = int(input())
+count = len(list(filter(lambda x: x == target, numbers)))
+print(count)
